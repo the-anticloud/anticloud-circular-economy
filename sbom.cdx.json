@@ -1,0 +1,257 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "serialNumber": "urn:uuid:97dde04c-a04f-568f-b121-9de5b82f5781",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-06T17:24:10Z",
+  "component": {
+   "type": "application",
+   "name": "CIRCULAR_ECONOMY",
+   "version": "83b357604d34",
+   "bom-ref": "pkg:generic/anticloud/CIRCULAR_ECONOMY@83b357604d34",
+   "purl": "pkg:generic/anticloud/CIRCULAR_ECONOMY@83b357604d34",
+   "licenses": [
+    {
+     "license": {
+      "id": "MIT"
+     }
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "anticloud:source-commit",
+    "value": "null"
+   },
+   {
+    "name": "anticloud:source-url",
+    "value": "https://github.com/the-anticloud/OPENMRS_CORE.git"
+   },
+   {
+    "name": "anticloud:tier",
+    "value": "tier-agent"
+   }
+  ]
+ },
+ "components": [
+  {
+   "type": "library",
+   "name": "express",
+   "version": "^5.1.0",
+   "purl": "pkg:npm/express@^5.1.0",
+   "bom-ref": "npm/express@^5.1.0"
+  },
+  {
+   "type": "library",
+   "name": "@eslint/js",
+   "version": "^9.39.1",
+   "purl": "pkg:npm/@eslint/js@^9.39.1",
+   "bom-ref": "npm/@eslint/js@^9.39.1"
+  },
+  {
+   "type": "library",
+   "name": "@swc-node/register",
+   "version": "^1.10.9",
+   "purl": "pkg:npm/@swc-node/register@^1.10.9",
+   "bom-ref": "npm/@swc-node/register@^1.10.9"
+  },
+  {
+   "type": "library",
+   "name": "@swc/core",
+   "version": "^1.11.13",
+   "purl": "pkg:npm/@swc/core@^1.11.13",
+   "bom-ref": "npm/@swc/core@^1.11.13"
+  },
+  {
+   "type": "library",
+   "name": "@types/express",
+   "version": "^5.0.1",
+   "purl": "pkg:npm/@types/express@^5.0.1",
+   "bom-ref": "npm/@types/express@^5.0.1"
+  },
+  {
+   "type": "library",
+   "name": "@types/node",
+   "version": "^24.10.1",
+   "purl": "pkg:npm/@types/node@^24.10.1",
+   "bom-ref": "npm/@types/node@^24.10.1"
+  },
+  {
+   "type": "library",
+   "name": "eslint",
+   "version": "^9.39.1",
+   "purl": "pkg:npm/eslint@^9.39.1",
+   "bom-ref": "npm/eslint@^9.39.1"
+  },
+  {
+   "type": "library",
+   "name": "globals",
+   "version": "^16.5.0",
+   "purl": "pkg:npm/globals@^16.5.0",
+   "bom-ref": "npm/globals@^16.5.0"
+  },
+  {
+   "type": "library",
+   "name": "nodemon",
+   "version": "^3.1.9",
+   "purl": "pkg:npm/nodemon@^3.1.9",
+   "bom-ref": "npm/nodemon@^3.1.9"
+  },
+  {
+   "type": "library",
+   "name": "typescript",
+   "version": "~5.9.3",
+   "purl": "pkg:npm/typescript@~5.9.3",
+   "bom-ref": "npm/typescript@~5.9.3"
+  },
+  {
+   "type": "library",
+   "name": "typescript-eslint",
+   "version": "^8.48.0",
+   "purl": "pkg:npm/typescript-eslint@^8.48.0",
+   "bom-ref": "npm/typescript-eslint@^8.48.0"
+  },
+  {
+   "type": "library",
+   "name": "boston-circular-economy-contracts",
+   "version": "unspecified",
+   "purl": "pkg:pypi/boston-circular-economy-contracts",
+   "bom-ref": "pypi/boston-circular-economy-contracts@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "boston-circular-economy-data-store",
+   "version": "unspecified",
+   "purl": "pkg:pypi/boston-circular-economy-data-store",
+   "bom-ref": "pypi/boston-circular-economy-data-store@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "fastapi",
+   "version": ">=0.141.1",
+   "purl": "pkg:pypi/fastapi@0.141.1",
+   "bom-ref": "pypi/fastapi@>=0.141.1"
+  },
+  {
+   "type": "library",
+   "name": "uvicorn",
+   "version": ">=0.52.4",
+   "purl": "pkg:pypi/uvicorn@0.52.4",
+   "bom-ref": "pypi/uvicorn@>=0.52.4"
+  },
+  {
+   "type": "library",
+   "name": "pydantic",
+   "version": ">=2.13.5",
+   "purl": "pkg:pypi/pydantic@2.13.5",
+   "bom-ref": "pypi/pydantic@>=2.13.5"
+  },
+  {
+   "type": "library",
+   "name": "httpx",
+   "version": ">=0.28.1",
+   "purl": "pkg:pypi/httpx@0.28.1",
+   "bom-ref": "pypi/httpx@>=0.28.1"
+  },
+  {
+   "type": "library",
+   "name": "phonenumbers",
+   "version": ">=9.0.37",
+   "purl": "pkg:pypi/phonenumbers@9.0.37",
+   "bom-ref": "pypi/phonenumbers@>=9.0.37"
+  },
+  {
+   "type": "library",
+   "name": "rapidfuzz",
+   "version": ">=3.14.5",
+   "purl": "pkg:pypi/rapidfuzz@3.14.5",
+   "bom-ref": "pypi/rapidfuzz@>=3.14.5"
+  },
+  {
+   "type": "library",
+   "name": "cleanco",
+   "version": ">=2.3",
+   "purl": "pkg:pypi/cleanco@2.3",
+   "bom-ref": "pypi/cleanco@>=2.3"
+  },
+  {
+   "type": "library",
+   "name": "usaddress-scourgify",
+   "version": ">=0.7.1",
+   "purl": "pkg:pypi/usaddress-scourgify@0.7.1",
+   "bom-ref": "pypi/usaddress-scourgify@>=0.7.1"
+  },
+  {
+   "type": "library",
+   "name": "@tanstack/react-router",
+   "version": "^1.166.2",
+   "purl": "pkg:npm/@tanstack/react-router@^1.166.2",
+   "bom-ref": "npm/@tanstack/react-router@^1.166.2"
+  },
+  {
+   "type": "library",
+   "name": "@tanstack/router-plugin",
+   "version": "^1.166.2",
+   "purl": "pkg:npm/@tanstack/router-plugin@^1.166.2",
+   "bom-ref": "npm/@tanstack/router-plugin@^1.166.2"
+  },
+  {
+   "type": "library",
+   "name": "react",
+   "version": "^19.2.0",
+   "purl": "pkg:npm/react@^19.2.0",
+   "bom-ref": "npm/react@^19.2.0"
+  },
+  {
+   "type": "library",
+   "name": "react-dom",
+   "version": "^19.2.0",
+   "purl": "pkg:npm/react-dom@^19.2.0",
+   "bom-ref": "npm/react-dom@^19.2.0"
+  },
+  {
+   "type": "library",
+   "name": "@types/react",
+   "version": "^19.2.7",
+   "purl": "pkg:npm/@types/react@^19.2.7",
+   "bom-ref": "npm/@types/react@^19.2.7"
+  },
+  {
+   "type": "library",
+   "name": "@types/react-dom",
+   "version": "^19.2.3",
+   "purl": "pkg:npm/@types/react-dom@^19.2.3",
+   "bom-ref": "npm/@types/react-dom@^19.2.3"
+  },
+  {
+   "type": "library",
+   "name": "@vitejs/plugin-react-swc",
+   "version": "^4.2.2",
+   "purl": "pkg:npm/@vitejs/plugin-react-swc@^4.2.2",
+   "bom-ref": "npm/@vitejs/plugin-react-swc@^4.2.2"
+  },
+  {
+   "type": "library",
+   "name": "eslint-plugin-react-hooks",
+   "version": "^7.0.1",
+   "purl": "pkg:npm/eslint-plugin-react-hooks@^7.0.1",
+   "bom-ref": "npm/eslint-plugin-react-hooks@^7.0.1"
+  },
+  {
+   "type": "library",
+   "name": "eslint-plugin-react-refresh",
+   "version": "^0.4.24",
+   "purl": "pkg:npm/eslint-plugin-react-refresh@^0.4.24",
+   "bom-ref": "npm/eslint-plugin-react-refresh@^0.4.24"
+  },
+  {
+   "type": "library",
+   "name": "vite",
+   "version": "^7.3.1",
+   "purl": "pkg:npm/vite@^7.3.1",
+   "bom-ref": "npm/vite@^7.3.1"
+  }
+ ],
+ "sha_unverified": true
+}
